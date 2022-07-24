@@ -1,0 +1,79 @@
+.project-list {
+  /* height: 250px; */
+  margin: 10px;
+  padding: 10px;
+  border-radius: 5px;
+  box-shadow: 15px 9px 9px -2px rgba(230, 224, 224, 0.86);
+  -webkit-box-shadow: 15px 9px 9px -2px rgba(230, 224, 224, 0.86);
+  -moz-box-shadow: 15px 9px 9px -2px rgba(230, 224, 224, 0.86);
+}
+
+#dark .project-list {
+  background-color: #38004c;
+  color: white;
+  box-shadow: none;
+
+  box-shadow: -6px 11px 5px -4px rgba(0, 0, 0, 0.42);
+  -webkit-box-shadow: -6px 11px 5px -4px rgba(0, 0, 0, 0.42);
+  -moz-box-shadow: -6px 11px 5px -4px rgba(0, 0, 0, 0.42);
+}
+
+.project-list-opened {
+  border-left: 5px solid blueviolet;
+  cursor: pointer;
+}
+
+.project-list:hover {
+  border-left: 5px solid blueviolet;
+  cursor: pointer;
+  transition-duration: 1s;
+}
+
+.tech-used-in-projects {
+  border-radius: 90px;
+  height: 50px;
+  color: white;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  display: block;
+  margin: 0 auto;
+  line-height: 50px;
+  margin-top: 10px;
+}
+
+
+.live-demo-button {
+  margin-top: 20px;
+  background-color: green;
+  border-radius: 20px;
+  color: white;
+  width: fit-content;
+  margin-left: 5px;
+}
+
+.live-demo-button:hover {
+  background-color: orangered;
+  color: white;
+  transition-duration: 1s;
+}
+
+.live-demo-button p a {
+  color: white;
+  text-decoration: none;
+  padding: 10px;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  display: flex;
+}
+
+.title-with-dropdown {
+  display: flex;
+  justify-content: space-between;
+  margin: 5px;
+}
+
+.description {
+  margin-left: 5px;
+}
